@@ -1,0 +1,10 @@
+#app1 {
+}
+#app1 .output {
+  padding: 10px;
+}
+#app1 .actions {
+}
+#app1 .actions > button {
+  padding: 10px;
+}
