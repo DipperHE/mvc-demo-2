@@ -11431,7 +11431,7 @@ var m = {
   update: function update(data) {
     Object.assign(m.data, data);
     eventBus.trigger("m:updated");
-    localStorage.setItem("index", m.data.index);
+    localStorage.setItem("app2.index", m.data.index);
   },
   get: function get() {}
 };
@@ -11587,7 +11587,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57293" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53394" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -14,7 +14,7 @@ const m = {
   update(data) {
     Object.assign(m.data, data);
     eventBus.trigger("m:updated");
-    localStorage.setItem("index", m.data.index);
+    localStorage.setItem("app2.index", m.data.index);
   },
   get() {},
 };
